@@ -56,17 +56,18 @@ button:hover {
 
 #message {
   display: none;
-  background: #000000;
+  background: #191919;
   color: #ffffff;
-  position: relative;
   padding: 20px;
   width: 30%;
   margin-top: 20px;
+  border-radius: 5%;
 }
 
 #message p {
-  padding: 10px 35px;
+  padding: 10px;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .valid {
@@ -75,8 +76,7 @@ button:hover {
 
 .valid:before {
   position: relative;
-  left: -35px;
-  content: "&#10004;";
+  left: -30px;
 }
 
 .invalid {
@@ -85,8 +85,6 @@ button:hover {
 
 .invalid:before {
   position: relative;
-  left: -35px;
-  content: "&#10006;";
 }
 
 header {
