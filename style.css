@@ -12,6 +12,8 @@ body {
 
 h1 {
   margin-bottom: 1rem;
+  margin-left: 6px;
+  font-size: 32px;
   color: white;
 }
 
@@ -24,6 +26,12 @@ form {
 
 input {
   margin-bottom: 1rem;
+}
+
+textarea {
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  height: 6rem;
 }
 
 button {
@@ -79,4 +87,20 @@ button:hover {
   position: relative;
   left: -35px;
   content: "&#10006;";
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 40px;
+  gap: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #cccccc;
 }
